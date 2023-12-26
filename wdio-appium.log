@@ -1,0 +1,544 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235031729 (14:20:31 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@5275][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@5275][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@5275][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@5275][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@5275][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@5275][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@5275][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@5275][0m   },
+[38;5;32m[AndroidUiautomator2Driver@5275][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@5275][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@5275][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@5275][0m }
+[38;5;32m[AndroidUiautomator2Driver@5275 (7a75cccf)][0m Session created with session id: 7a75cccf-5b2e-4f26-815d-d2b5b3688bb0
+[38;5;32m[AndroidUiautomator2Driver@5275 (7a75cccf)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@5275 (7a75cccf)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235031779 (14:20:31 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m81 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235031959 (14:20:31 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m   },
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@91ea][0m }
+[38;5;32m[AndroidUiautomator2Driver@91ea (d50a3ce1)][0m Session created with session id: d50a3ce1-1d76-4bf5-bf09-c7980e78c6f9
+[38;5;32m[AndroidUiautomator2Driver@91ea (d50a3ce1)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@91ea (d50a3ce1)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235031995 (14:20:31 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m40 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032113 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m   },
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@cbd2][0m }
+[38;5;32m[AndroidUiautomator2Driver@cbd2 (aeb67b19)][0m Session created with session id: aeb67b19-9d45-46e7-993d-b0d1b4eabe18
+[38;5;32m[AndroidUiautomator2Driver@cbd2 (aeb67b19)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@cbd2 (aeb67b19)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032139 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m30 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032253 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@5518][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@5518][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@5518][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@5518][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@5518][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@5518][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@5518][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@5518][0m   },
+[38;5;32m[AndroidUiautomator2Driver@5518][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@5518][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@5518][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@5518][0m }
+[38;5;32m[AndroidUiautomator2Driver@5518 (1f807803)][0m Session created with session id: 1f807803-df35-406c-be29-70e13a162295
+[38;5;32m[AndroidUiautomator2Driver@5518 (1f807803)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@5518 (1f807803)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032275 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m25 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032291 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m   },
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@d8f5][0m }
+[38;5;32m[AndroidUiautomator2Driver@d8f5 (8daa0059)][0m Session created with session id: 8daa0059-e491-4ed0-8497-240a1a58ee49
+[38;5;32m[AndroidUiautomator2Driver@d8f5 (8daa0059)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@d8f5 (8daa0059)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032329 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m42 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032439 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m   },
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@f4a7][0m }
+[38;5;32m[AndroidUiautomator2Driver@f4a7 (d36385cb)][0m Session created with session id: d36385cb-9cf7-4ae7-b654-b6ba64207351
+[38;5;32m[AndroidUiautomator2Driver@f4a7 (d36385cb)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@f4a7 (d36385cb)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032467 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m33 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032578 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m   },
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@fd10][0m }
+[38;5;32m[AndroidUiautomator2Driver@fd10 (62086a2b)][0m Session created with session id: 62086a2b-9124-446d-89b5-c82c42f350fd
+[38;5;32m[AndroidUiautomator2Driver@fd10 (62086a2b)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@fd10 (62086a2b)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032598 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m23 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032717 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@97de][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@97de][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@97de][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@97de][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@97de][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@97de][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@97de][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@97de][0m   },
+[38;5;32m[AndroidUiautomator2Driver@97de][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@97de][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@97de][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@97de][0m }
+[38;5;32m[AndroidUiautomator2Driver@97de (3da11dcb)][0m Session created with session id: 3da11dcb-0c6f-4d04-bfa0-d4b9ae99ee39
+[38;5;32m[AndroidUiautomator2Driver@97de (3da11dcb)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@97de (3da11dcb)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032735 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m21 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032750 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m   },
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@e6d1][0m }
+[38;5;32m[AndroidUiautomator2Driver@e6d1 (03439f3a)][0m Session created with session id: 03439f3a-c46b-4a3c-9797-496b60a1a563
+[38;5;32m[AndroidUiautomator2Driver@e6d1 (03439f3a)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@e6d1 (03439f3a)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032784 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m40 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235032906 (14:20:32 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m   },
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@cd08][0m }
+[38;5;32m[AndroidUiautomator2Driver@cd08 (313cebcb)][0m Session created with session id: 313cebcb-5787-4b77-bb31-48953a570267
+[38;5;32m[AndroidUiautomator2Driver@cd08 (313cebcb)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@cd08 (313cebcb)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235032924 (14:20:32 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m22 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235033047 (14:20:33 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@c815][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@c815][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@c815][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@c815][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@c815][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@c815][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@c815][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@c815][0m   },
+[38;5;32m[AndroidUiautomator2Driver@c815][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@c815][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@c815][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@c815][0m }
+[38;5;32m[AndroidUiautomator2Driver@c815 (0b5e67ed)][0m Session created with session id: 0b5e67ed-1f22-4b21-8964-b2b2933c0a79
+[38;5;32m[AndroidUiautomator2Driver@c815 (0b5e67ed)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@c815 (0b5e67ed)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235033064 (14:20:33 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m20 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235033188 (14:20:33 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m   },
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@78b1][0m }
+[38;5;32m[AndroidUiautomator2Driver@78b1 (f7bb3908)][0m Session created with session id: f7bb3908-243c-421d-b443-dc130a84bb86
+[38;5;32m[AndroidUiautomator2Driver@78b1 (f7bb3908)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@78b1 (f7bb3908)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235033203 (14:20:33 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m17 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235033216 (14:20:33 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@8169][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@8169][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@8169][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@8169][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@8169][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@8169][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@8169][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@8169][0m   },
+[38;5;32m[AndroidUiautomator2Driver@8169][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@8169][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@8169][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@8169][0m }
+[38;5;32m[AndroidUiautomator2Driver@8169 (063f173e)][0m Session created with session id: 063f173e-ed5a-4f3f-a618-c058e5a38987
+[38;5;32m[AndroidUiautomator2Driver@8169 (063f173e)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@8169 (063f173e)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235033246 (14:20:33 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m34 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235033360 (14:20:33 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@b256][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@b256][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@b256][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@b256][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@b256][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@b256][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@b256][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@b256][0m   },
+[38;5;32m[AndroidUiautomator2Driver@b256][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@b256][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@b256][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@b256][0m }
+[38;5;32m[AndroidUiautomator2Driver@b256 (2aac2827)][0m Session created with session id: 2aac2827-23d9-47fb-b7ae-b0b303a37817
+[38;5;32m[AndroidUiautomator2Driver@b256 (2aac2827)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@b256 (2aac2827)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235033373 (14:20:33 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m16 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235033485 (14:20:33 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m   },
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@3f1c][0m }
+[38;5;32m[AndroidUiautomator2Driver@3f1c (d3743a2c)][0m Session created with session id: d3743a2c-1e48-432f-9a30-3cad8af0f884
+[38;5;32m[AndroidUiautomator2Driver@3f1c (d3743a2c)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@3f1c (d3743a2c)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235033501 (14:20:33 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m19 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"}}[39m
+[38;5;16m[AppiumDriver@5fd7][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},null,{"alwaysMatch":{"platformName":"Android","appium:platformVersion":"11","appium:deviceName":"nightwatch-android-11","appium:app":"C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk","appium:automationName":"UIAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionRequested' logged at 1703235033622 (14:20:33 GMT+0530 (India Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UIAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at C:\Users\DebashisBadajena\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+[38;5;16m[AppiumDriver@5fd7][0m Appium v2.3.0 creating new AndroidUiautomator2Driver (v2.35.0) session
+[38;5;16m[AppiumDriver@5fd7][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@5fd7][0m Appium's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.4
+[38;5;16m[AppiumDriver@5fd7][0m There are no active sessions for cleanup
+[38;5;16m[AppiumDriver@5fd7][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m     "appium:platformVersion": "11",
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m     "appium:deviceName": "nightwatch-android-11",
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m     "appium:app": "C:\\Users\\DebashisBadajena\\Desktop\\mobileAppTest\\app\\android\\samsung-calculator.apk",
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m     "appium:automationName": "UIAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m   },
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@99b8][0m }
+[38;5;32m[AndroidUiautomator2Driver@99b8 (e2a40105)][0m Session created with session id: e2a40105-9c20-4472-a975-54bf73aee974
+[38;5;32m[AndroidUiautomator2Driver@99b8 (e2a40105)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@99b8 (e2a40105)][0m Unable to stop ChromeDriver proxies: Cannot read properties of undefined (reading 'proxyReqRes')
+[38;5;16m[AppiumDriver@5fd7][0m Event 'newSessionStarted' logged at 1703235033638 (14:20:33 GMT+0530 (India Standard Time))
+[38;5;16m[AppiumDriver@5fd7][0m Encountered internal error running command: Error: The application at 'C:\Users\DebashisBadajena\Desktop\mobileAppTest\app\android\samsung-calculator.apk' does not exist or is not accessible
+[38;5;16m[AppiumDriver@5fd7][0m     at C:\Users\DebashisBadajena\node_modules\@appium\base-driver\lib\basedriver\helpers.js:276:13
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[31m500[39m [90m19 ms - 838[39m
+[38;5;0m[HTTP][0m [90m[39m
