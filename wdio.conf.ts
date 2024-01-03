@@ -72,7 +72,7 @@ export const config: Options.Testrunner = {
         platformName: "Android",
       "appium:platformVersion": "14",
       "appium:deviceName": "Pixel_3a",
-      "appium:app": path.join(process.cwd(), "app/android/yappli.apk"),
+      "appium:app": path.join(process.cwd(), "app/android/apk_name.apk"),
       "appium:automationName": "UIAutomator2",
     }],
 
