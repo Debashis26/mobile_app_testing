@@ -13,7 +13,7 @@ const options = {
   // Add other configurations as needed
 };
 
-const urlToOpen = 'hhttps://yapp.li/apps/f6790159';
+const urlToOpen = '';
 
 
 describe('Mobile App Test', () => {
