@@ -70,9 +70,9 @@ export const config: Options.Testrunner = {
     //
     capabilities: [{
         platformName: "Android",
-      "appium:platformVersion": "11",
-      "appium:deviceName": "nightwatch-android-11",
-      "appium:app": path.join(process.cwd(), "app/android/samsung-calculator.apk"),
+      "appium:platformVersion": "14",
+      "appium:deviceName": "Pixel_3a",
+      "appium:app": path.join(process.cwd(), "app/android/yappli.apk"),
       "appium:automationName": "UIAutomator2",
     }],
 
